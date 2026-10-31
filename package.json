@@ -1,0 +1,9 @@
+{
+  "name": "hydro-addon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hydro Addon para Minecraft Bedrock. Este arquivo só serve para o VS Code entender a Script API (autocompletar e checagem de erros).",
+  "devDependencies": {
+    "@minecraft/server": "2.4.0"
+  }
+}

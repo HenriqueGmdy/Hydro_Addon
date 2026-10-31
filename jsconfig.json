@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "checkJs": true
+  },
+  "include": ["Hydro_BP/scripts/**/*.js"]
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Hydro Addon (BP)",
+    "description": "Protótipo do tier de cobre",
+    "uuid": "75eea70f-2333-40c5-aef0-c509af2cf900",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c81008c4-9d9a-4d67-bdf7-6c289db42113",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "766c1ea7-5f56-496f-bc92-71f86c5e9d4a",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.4.0"
+    },
+    {
+      "uuid": "f049f1a1-92d1-4fca-a60a-3d0943ff4e30",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

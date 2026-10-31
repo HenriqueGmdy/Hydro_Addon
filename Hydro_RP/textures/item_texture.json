@@ -1,0 +1,99 @@
+{
+  "resource_pack_name": "hydro",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "hydro_copper_plate_helmet": {
+      "textures": "textures/items/copper_plate_helmet"
+    },
+    "hydro_copper_plate_chestplate": {
+      "textures": "textures/items/copper_plate_chestplate"
+    },
+    "hydro_copper_plate_leggings": {
+      "textures": "textures/items/copper_plate_leggings"
+    },
+    "hydro_copper_plate_boots": {
+      "textures": "textures/items/copper_plate_boots"
+    },
+    "hydro_copper_plate": {
+      "textures": "textures/items/copper_plate"
+    },
+    "hydro_tin_nugget": {
+      "textures": "textures/items/tin_nugget"
+    },
+    "hydro_tin_ingot": {
+      "textures": "textures/items/tin_ingot"
+    },
+    "hydro_copper_helmet_exposed": {
+      "textures": "textures/items/copper_helmet_exposed"
+    },
+    "hydro_copper_chestplate_exposed": {
+      "textures": "textures/items/copper_chestplate_exposed"
+    },
+    "hydro_copper_leggings_exposed": {
+      "textures": "textures/items/copper_leggings_exposed"
+    },
+    "hydro_copper_boots_exposed": {
+      "textures": "textures/items/copper_boots_exposed"
+    },
+    "hydro_copper_helmet_weathered": {
+      "textures": "textures/items/copper_helmet_weathered"
+    },
+    "hydro_copper_chestplate_weathered": {
+      "textures": "textures/items/copper_chestplate_weathered"
+    },
+    "hydro_copper_leggings_weathered": {
+      "textures": "textures/items/copper_leggings_weathered"
+    },
+    "hydro_copper_boots_weathered": {
+      "textures": "textures/items/copper_boots_weathered"
+    },
+    "hydro_copper_helmet_oxidized": {
+      "textures": "textures/items/copper_helmet_oxidized"
+    },
+    "hydro_copper_chestplate_oxidized": {
+      "textures": "textures/items/copper_chestplate_oxidized"
+    },
+    "hydro_copper_leggings_oxidized": {
+      "textures": "textures/items/copper_leggings_oxidized"
+    },
+    "hydro_copper_boots_oxidized": {
+      "textures": "textures/items/copper_boots_oxidized"
+    },
+    "hydro_copper_plate_helmet_exposed": {
+      "textures": "textures/items/copper_plate_helmet_exposed"
+    },
+    "hydro_copper_plate_chestplate_exposed": {
+      "textures": "textures/items/copper_plate_chestplate_exposed"
+    },
+    "hydro_copper_plate_leggings_exposed": {
+      "textures": "textures/items/copper_plate_leggings_exposed"
+    },
+    "hydro_copper_plate_boots_exposed": {
+      "textures": "textures/items/copper_plate_boots_exposed"
+    },
+    "hydro_copper_plate_helmet_weathered": {
+      "textures": "textures/items/copper_plate_helmet_weathered"
+    },
+    "hydro_copper_plate_chestplate_weathered": {
+      "textures": "textures/items/copper_plate_chestplate_weathered"
+    },
+    "hydro_copper_plate_leggings_weathered": {
+      "textures": "textures/items/copper_plate_leggings_weathered"
+    },
+    "hydro_copper_plate_boots_weathered": {
+      "textures": "textures/items/copper_plate_boots_weathered"
+    },
+    "hydro_copper_plate_helmet_oxidized": {
+      "textures": "textures/items/copper_plate_helmet_oxidized"
+    },
+    "hydro_copper_plate_chestplate_oxidized": {
+      "textures": "textures/items/copper_plate_chestplate_oxidized"
+    },
+    "hydro_copper_plate_leggings_oxidized": {
+      "textures": "textures/items/copper_plate_leggings_oxidized"
+    },
+    "hydro_copper_plate_boots_oxidized": {
+      "textures": "textures/items/copper_plate_boots_oxidized"
+    }
+  }
+}

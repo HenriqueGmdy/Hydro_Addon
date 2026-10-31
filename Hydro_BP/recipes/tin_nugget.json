@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hydro:tin_nugget_from_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "hydro:tin_ingot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hydro:tin_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:tin_nugget",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:copper_plate_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:copper_plate"
+      },
+      "A": {
+        "item": "minecraft:copper_boots"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:copper_plate"
+      }
+    ],
+    "result": {
+      "item": "hydro:copper_plate_boots",
+      "count": 1
+    }
+  }
+}

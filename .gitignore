@@ -1,0 +1,13 @@
+﻿# Pacotes gerados pelo empacotar.ps1 (podem ser recriados a qualquer momento)
+*.mcaddon
+*.mcpack
+*.zip
+
+# Dependências do VS Code (npm install)
+node_modules/
+package-lock.json
+
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:copper_plate_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "XAX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:copper_plate"
+      },
+      "A": {
+        "item": "minecraft:copper_chestplate"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:copper_plate"
+      }
+    ],
+    "result": {
+      "item": "hydro:copper_plate_chestplate",
+      "count": 1
+    }
+  }
+}
