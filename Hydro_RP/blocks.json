@@ -1,0 +1,13 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "hydro:caldeirao": {
+    "sound": "metal"
+  },
+  "hydro:fornalha_infernal": {
+    "sound": "stone"
+  }
+}

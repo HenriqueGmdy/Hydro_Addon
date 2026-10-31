@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:iron_plate_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:iron_plate"
+      },
+      "A": {
+        "item": "minecraft:iron_leggings"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:iron_plate"
+      }
+    ],
+    "result": {
+      "item": "hydro:iron_plate_leggings",
+      "count": 1
+    }
+  }
+}

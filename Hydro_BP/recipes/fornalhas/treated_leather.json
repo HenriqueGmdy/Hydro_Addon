@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "hydro:treated_leather"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "minecraft:leather",
+    "output": "hydro:treated_leather"
+  }
+}

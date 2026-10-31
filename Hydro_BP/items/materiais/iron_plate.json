@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hydro:iron_plate",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": "hydro_iron_plate",
+      "minecraft:display_name": {
+        "value": "item.hydro.iron_plate"
+      }
+    }
+  }
+}

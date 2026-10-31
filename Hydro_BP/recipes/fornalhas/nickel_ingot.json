@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hydro:nickel_ingot"
+    },
+    "tags": [
+      "hydro_fornalha_infernal"
+    ],
+    "ingredients": [
+      {
+        "item": "hydro:bronze_ingot"
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 2
+      },
+      {
+        "tag": "minecraft:coals"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hydro:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:nickel_ingot",
+      "count": 1
+    }
+  }
+}

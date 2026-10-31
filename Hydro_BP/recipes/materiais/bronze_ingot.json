@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hydro:bronze_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 3
+      },
+      {
+        "item": "hydro:tin_ingot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:bronze_ingot",
+      "count": 4
+    }
+  }
+}

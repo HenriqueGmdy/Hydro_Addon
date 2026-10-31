@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hydro:copper_leggings_exposed",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "hydro_copper_leggings_exposed",
+      "minecraft:display_name": {
+        "value": "item.hydro.copper_leggings_exposed"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 3
+      },
+      "minecraft:durability": {
+        "max_durability": 165
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "repair_amount": 42
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "hydro:copper"
+        ]
+      }
+    }
+  }
+}

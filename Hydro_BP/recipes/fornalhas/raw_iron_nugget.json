@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "hydro:raw_iron_nugget"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "hydro:raw_iron_nugget",
+    "output": "minecraft:iron_nugget"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:studded_leather_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:treated_leather"
+      },
+      "A": {
+        "item": "minecraft:leather_helmet"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:treated_leather"
+      }
+    ],
+    "result": {
+      "item": "hydro:studded_leather_helmet",
+      "count": 1
+    }
+  }
+}

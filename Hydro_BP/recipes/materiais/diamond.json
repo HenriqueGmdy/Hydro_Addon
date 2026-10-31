@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hydro:diamond_from_nuggets"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "hydro:diamond_nugget",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hydro:diamond_nugget"
+      }
+    ],
+    "result": {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:fur_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "A": {
+        "item": "minecraft:leather_leggings"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:rabbit_hide"
+      }
+    ],
+    "result": {
+      "item": "hydro:fur_leggings",
+      "count": 1
+    }
+  }
+}
