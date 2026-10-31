@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:nickel_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:nickel_ingot"
+      },
+      "A": {
+        "item": "hydro:bronze_boots"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:nickel_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:nickel_boots",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "namespace": "hud",
+  // A barra de armadura vanilla vira o texto da Defesa Hydro. O script manda o valor num título com o prefixo "hydro:def:";
+  // o painel hydro_defesa_dados guarda o último valor, e o título vanilla esconde os textos que começam com "hydro:".
+  "armor_renderer": {
+    "type": "panel",
+    "size": [
+      80,
+      9
+    ],
+    "layer": 1,
+    "controls": [
+      {
+        "hydro_dados@hud.hydro_defesa_dados": {}
+      },
+      {
+        "icone": {
+          "type": "image",
+          "texture": "textures/ui/armor_full",
+          "size": [
+            9,
+            9
+          ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "hydro_dados",
+              "source_property_name": "(not (#preserved_text = 'hydro:def: ') and not (#preserved_text = ''))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "texto": {
+          "type": "label",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [
+            11,
+            0
+          ],
+          "text": "#texto",
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "shadow": true,
+          "layer": 2,
+          "localize": false,
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "hydro_dados",
+              "source_property_name": "(#preserved_text - 'hydro:def:')",
+              "target_property_name": "#texto"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "hydro_defesa_dados": {
+    "type": "panel",
+    "size": [
+      0,
+      0
+    ],
+    "property_bag": {
+      "#preserved_text": ""
+    },
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_name": "#hud_title_text_string",
+        "binding_name_override": "#preserved_text",
+        "binding_condition": "visibility_changed"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - 'hydro:def:') = #hud_title_text_string))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "hud_title_text": {
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#hud_title_text_string - 'hydro:') = #hud_title_text_string)",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

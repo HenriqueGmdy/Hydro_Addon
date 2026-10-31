@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:iron_plate_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "XAX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:iron_plate"
+      },
+      "A": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:iron_plate"
+      }
+    ],
+    "result": {
+      "item": "hydro:iron_plate_chestplate",
+      "count": 1
+    }
+  }
+}

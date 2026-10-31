@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:magmarine_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:quartz"
+      },
+      "A": {
+        "item": "hydro:nickel_boots"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:quartz"
+      }
+    ],
+    "result": {
+      "item": "hydro:magmarine_boots",
+      "count": 1
+    }
+  }
+}

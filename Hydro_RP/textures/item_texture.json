@@ -2,98 +2,200 @@
   "resource_pack_name": "hydro",
   "texture_name": "atlas.items",
   "texture_data": {
-    "hydro_copper_plate_helmet": {
-      "textures": "textures/items/copper_plate_helmet"
+    "hydro_studded_leather_helmet": {
+      "textures": "textures/items/armaduras/studded_leather/studded_leather_helmet"
     },
-    "hydro_copper_plate_chestplate": {
-      "textures": "textures/items/copper_plate_chestplate"
+    "hydro_studded_leather_chestplate": {
+      "textures": "textures/items/armaduras/studded_leather/studded_leather_chestplate"
     },
-    "hydro_copper_plate_leggings": {
-      "textures": "textures/items/copper_plate_leggings"
+    "hydro_studded_leather_leggings": {
+      "textures": "textures/items/armaduras/studded_leather/studded_leather_leggings"
     },
-    "hydro_copper_plate_boots": {
-      "textures": "textures/items/copper_plate_boots"
+    "hydro_studded_leather_boots": {
+      "textures": "textures/items/armaduras/studded_leather/studded_leather_boots"
     },
-    "hydro_copper_plate": {
-      "textures": "textures/items/copper_plate"
+    "hydro_fur_helmet": {
+      "textures": "textures/items/armaduras/fur/fur_helmet"
     },
-    "hydro_tin_nugget": {
-      "textures": "textures/items/tin_nugget"
+    "hydro_fur_chestplate": {
+      "textures": "textures/items/armaduras/fur/fur_chestplate"
     },
-    "hydro_tin_ingot": {
-      "textures": "textures/items/tin_ingot"
+    "hydro_fur_leggings": {
+      "textures": "textures/items/armaduras/fur/fur_leggings"
+    },
+    "hydro_fur_boots": {
+      "textures": "textures/items/armaduras/fur/fur_boots"
     },
     "hydro_copper_helmet_exposed": {
-      "textures": "textures/items/copper_helmet_exposed"
-    },
-    "hydro_copper_chestplate_exposed": {
-      "textures": "textures/items/copper_chestplate_exposed"
-    },
-    "hydro_copper_leggings_exposed": {
-      "textures": "textures/items/copper_leggings_exposed"
-    },
-    "hydro_copper_boots_exposed": {
-      "textures": "textures/items/copper_boots_exposed"
+      "textures": "textures/items/armaduras/copper/copper_helmet_exposed"
     },
     "hydro_copper_helmet_weathered": {
-      "textures": "textures/items/copper_helmet_weathered"
-    },
-    "hydro_copper_chestplate_weathered": {
-      "textures": "textures/items/copper_chestplate_weathered"
-    },
-    "hydro_copper_leggings_weathered": {
-      "textures": "textures/items/copper_leggings_weathered"
-    },
-    "hydro_copper_boots_weathered": {
-      "textures": "textures/items/copper_boots_weathered"
+      "textures": "textures/items/armaduras/copper/copper_helmet_weathered"
     },
     "hydro_copper_helmet_oxidized": {
-      "textures": "textures/items/copper_helmet_oxidized"
+      "textures": "textures/items/armaduras/copper/copper_helmet_oxidized"
+    },
+    "hydro_copper_chestplate_exposed": {
+      "textures": "textures/items/armaduras/copper/copper_chestplate_exposed"
+    },
+    "hydro_copper_chestplate_weathered": {
+      "textures": "textures/items/armaduras/copper/copper_chestplate_weathered"
     },
     "hydro_copper_chestplate_oxidized": {
-      "textures": "textures/items/copper_chestplate_oxidized"
+      "textures": "textures/items/armaduras/copper/copper_chestplate_oxidized"
+    },
+    "hydro_copper_leggings_exposed": {
+      "textures": "textures/items/armaduras/copper/copper_leggings_exposed"
+    },
+    "hydro_copper_leggings_weathered": {
+      "textures": "textures/items/armaduras/copper/copper_leggings_weathered"
     },
     "hydro_copper_leggings_oxidized": {
-      "textures": "textures/items/copper_leggings_oxidized"
+      "textures": "textures/items/armaduras/copper/copper_leggings_oxidized"
+    },
+    "hydro_copper_boots_exposed": {
+      "textures": "textures/items/armaduras/copper/copper_boots_exposed"
+    },
+    "hydro_copper_boots_weathered": {
+      "textures": "textures/items/armaduras/copper/copper_boots_weathered"
     },
     "hydro_copper_boots_oxidized": {
-      "textures": "textures/items/copper_boots_oxidized"
+      "textures": "textures/items/armaduras/copper/copper_boots_oxidized"
+    },
+    "hydro_copper_plate_helmet": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_helmet"
     },
     "hydro_copper_plate_helmet_exposed": {
-      "textures": "textures/items/copper_plate_helmet_exposed"
-    },
-    "hydro_copper_plate_chestplate_exposed": {
-      "textures": "textures/items/copper_plate_chestplate_exposed"
-    },
-    "hydro_copper_plate_leggings_exposed": {
-      "textures": "textures/items/copper_plate_leggings_exposed"
-    },
-    "hydro_copper_plate_boots_exposed": {
-      "textures": "textures/items/copper_plate_boots_exposed"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_helmet_exposed"
     },
     "hydro_copper_plate_helmet_weathered": {
-      "textures": "textures/items/copper_plate_helmet_weathered"
-    },
-    "hydro_copper_plate_chestplate_weathered": {
-      "textures": "textures/items/copper_plate_chestplate_weathered"
-    },
-    "hydro_copper_plate_leggings_weathered": {
-      "textures": "textures/items/copper_plate_leggings_weathered"
-    },
-    "hydro_copper_plate_boots_weathered": {
-      "textures": "textures/items/copper_plate_boots_weathered"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_helmet_weathered"
     },
     "hydro_copper_plate_helmet_oxidized": {
-      "textures": "textures/items/copper_plate_helmet_oxidized"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_helmet_oxidized"
+    },
+    "hydro_copper_plate_chestplate": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_chestplate"
+    },
+    "hydro_copper_plate_chestplate_exposed": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_chestplate_exposed"
+    },
+    "hydro_copper_plate_chestplate_weathered": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_chestplate_weathered"
     },
     "hydro_copper_plate_chestplate_oxidized": {
-      "textures": "textures/items/copper_plate_chestplate_oxidized"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_chestplate_oxidized"
+    },
+    "hydro_copper_plate_leggings": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_leggings"
+    },
+    "hydro_copper_plate_leggings_exposed": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_leggings_exposed"
+    },
+    "hydro_copper_plate_leggings_weathered": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_leggings_weathered"
     },
     "hydro_copper_plate_leggings_oxidized": {
-      "textures": "textures/items/copper_plate_leggings_oxidized"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_leggings_oxidized"
+    },
+    "hydro_copper_plate_boots": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_boots"
+    },
+    "hydro_copper_plate_boots_exposed": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_boots_exposed"
+    },
+    "hydro_copper_plate_boots_weathered": {
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_boots_weathered"
     },
     "hydro_copper_plate_boots_oxidized": {
-      "textures": "textures/items/copper_plate_boots_oxidized"
+      "textures": "textures/items/armaduras/copper_plate/copper_plate_boots_oxidized"
+    },
+    "hydro_bronze_helmet": {
+      "textures": "textures/items/armaduras/bronze/bronze_helmet"
+    },
+    "hydro_bronze_chestplate": {
+      "textures": "textures/items/armaduras/bronze/bronze_chestplate"
+    },
+    "hydro_bronze_leggings": {
+      "textures": "textures/items/armaduras/bronze/bronze_leggings"
+    },
+    "hydro_bronze_boots": {
+      "textures": "textures/items/armaduras/bronze/bronze_boots"
+    },
+    "hydro_iron_ranger_helmet": {
+      "textures": "textures/items/armaduras/iron_ranger/iron_ranger_helmet"
+    },
+    "hydro_iron_plate_helmet": {
+      "textures": "textures/items/armaduras/iron_plate/iron_plate_helmet"
+    },
+    "hydro_iron_plate_chestplate": {
+      "textures": "textures/items/armaduras/iron_plate/iron_plate_chestplate"
+    },
+    "hydro_iron_plate_leggings": {
+      "textures": "textures/items/armaduras/iron_plate/iron_plate_leggings"
+    },
+    "hydro_iron_plate_boots": {
+      "textures": "textures/items/armaduras/iron_plate/iron_plate_boots"
+    },
+    "hydro_nickel_helmet": {
+      "textures": "textures/items/armaduras/nickel/nickel_helmet"
+    },
+    "hydro_nickel_chestplate": {
+      "textures": "textures/items/armaduras/nickel/nickel_chestplate"
+    },
+    "hydro_nickel_leggings": {
+      "textures": "textures/items/armaduras/nickel/nickel_leggings"
+    },
+    "hydro_nickel_boots": {
+      "textures": "textures/items/armaduras/nickel/nickel_boots"
+    },
+    "hydro_golden_ranger_helmet": {
+      "textures": "textures/items/armaduras/golden_ranger/golden_ranger_helmet"
+    },
+    "hydro_magmarine_helmet": {
+      "textures": "textures/items/armaduras/magmarine/magmarine_helmet"
+    },
+    "hydro_magmarine_chestplate": {
+      "textures": "textures/items/armaduras/magmarine/magmarine_chestplate"
+    },
+    "hydro_magmarine_leggings": {
+      "textures": "textures/items/armaduras/magmarine/magmarine_leggings"
+    },
+    "hydro_magmarine_boots": {
+      "textures": "textures/items/armaduras/magmarine/magmarine_boots"
+    },
+    "hydro_tin_nugget": {
+      "textures": "textures/items/materiais/tin_nugget"
+    },
+    "hydro_tin_ingot": {
+      "textures": "textures/items/materiais/tin_ingot"
+    },
+    "hydro_copper_plate": {
+      "textures": "textures/items/materiais/copper_plate"
+    },
+    "hydro_raw_iron_nugget": {
+      "textures": "textures/items/materiais/raw_iron_nugget"
+    },
+    "hydro_raw_gold_nugget": {
+      "textures": "textures/items/materiais/raw_gold_nugget"
+    },
+    "hydro_raw_diamond_nugget": {
+      "textures": "textures/items/materiais/raw_diamond_nugget"
+    },
+    "hydro_diamond_nugget": {
+      "textures": "textures/items/materiais/diamond_nugget"
+    },
+    "hydro_treated_leather": {
+      "textures": "textures/items/materiais/treated_leather"
+    },
+    "hydro_bronze_ingot": {
+      "textures": "textures/items/materiais/bronze_ingot"
+    },
+    "hydro_iron_plate": {
+      "textures": "textures/items/materiais/iron_plate"
+    },
+    "hydro_nickel_ingot": {
+      "textures": "textures/items/materiais/nickel_ingot"
     }
   }
 }

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hydro:nickel_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "hydro_nickel_leggings",
+      "minecraft:display_name": {
+        "value": "item.hydro.nickel_leggings"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "minecraft:durability": {
+        "max_durability": 285
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "hydro:nickel_ingot"
+            ],
+            "repair_amount": 72
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "hydro:nickel"
+        ]
+      }
+    }
+  }
+}

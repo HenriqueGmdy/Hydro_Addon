@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hydro:studded_leather_boots",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "hydro_studded_leather_boots",
+      "minecraft:display_name": {
+        "value": "item.hydro.studded_leather_boots"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet",
+        "protection": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 117
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_feet",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "hydro:treated_leather"
+            ],
+            "repair_amount": 30
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "hydro:studded_leather"
+        ]
+      }
+    }
+  }
+}

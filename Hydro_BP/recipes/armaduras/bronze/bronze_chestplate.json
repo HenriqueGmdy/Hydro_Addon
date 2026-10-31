@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:bronze_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "XAX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:bronze_ingot"
+      },
+      "A": {
+        "item": "minecraft:chainmail_chestplate"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:bronze_chestplate",
+      "count": 1
+    }
+  }
+}

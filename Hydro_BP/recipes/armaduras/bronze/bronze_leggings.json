@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:bronze_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XAX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "hydro:bronze_ingot"
+      },
+      "A": {
+        "item": "minecraft:chainmail_leggings"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hydro:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hydro:bronze_leggings",
+      "count": 1
+    }
+  }
+}

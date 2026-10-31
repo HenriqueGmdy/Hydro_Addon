@@ -1,0 +1,183 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hydro:caldeirao",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "hydro:conteudo": [
+          "vazio",
+          "agua",
+          "pocao",
+          "slime",
+          "magma",
+          "mel"
+        ],
+        "hydro:nivel": {
+          "values": {
+            "min": 0,
+            "max": 6
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.hydro.caldeirao",
+        "bone_visibility": {
+          "nivel_1": "q.block_state('hydro:nivel') == 1",
+          "nivel_2": "q.block_state('hydro:nivel') == 2",
+          "nivel_3": "q.block_state('hydro:nivel') == 3",
+          "nivel_4": "q.block_state('hydro:nivel') == 4",
+          "nivel_5": "q.block_state('hydro:nivel') == 5",
+          "nivel_6": "q.block_state('hydro:nivel') == 6"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cauldron_side",
+          "render_method": "alpha_test"
+        },
+        "dentro": {
+          "texture": "cauldron_inner",
+          "render_method": "alpha_test"
+        },
+        "topo": {
+          "texture": "cauldron_top",
+          "render_method": "alpha_test"
+        },
+        "fundo": {
+          "texture": "cauldron_bottom",
+          "render_method": "alpha_test"
+        },
+        "conteudo": {
+          "texture": "cauldron_water",
+          "render_method": "blend",
+          "tint_method": "water"
+        }
+      },
+      "minecraft:display_name": "tile.hydro:caldeirao.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#4a4a4a",
+      "hydro:caldeirao": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('hydro:conteudo') == 'pocao'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cauldron_side",
+              "render_method": "alpha_test"
+            },
+            "dentro": {
+              "texture": "cauldron_inner",
+              "render_method": "alpha_test"
+            },
+            "topo": {
+              "texture": "cauldron_top",
+              "render_method": "alpha_test"
+            },
+            "fundo": {
+              "texture": "cauldron_bottom",
+              "render_method": "alpha_test"
+            },
+            "conteudo": {
+              "texture": "hydro_caldeirao_pocao",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hydro:conteudo') == 'slime'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cauldron_side",
+              "render_method": "alpha_test"
+            },
+            "dentro": {
+              "texture": "cauldron_inner",
+              "render_method": "alpha_test"
+            },
+            "topo": {
+              "texture": "cauldron_top",
+              "render_method": "alpha_test"
+            },
+            "fundo": {
+              "texture": "cauldron_bottom",
+              "render_method": "alpha_test"
+            },
+            "conteudo": {
+              "texture": "slime_block",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hydro:conteudo') == 'magma'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cauldron_side",
+              "render_method": "alpha_test"
+            },
+            "dentro": {
+              "texture": "cauldron_inner",
+              "render_method": "alpha_test"
+            },
+            "topo": {
+              "texture": "cauldron_top",
+              "render_method": "alpha_test"
+            },
+            "fundo": {
+              "texture": "cauldron_bottom",
+              "render_method": "alpha_test"
+            },
+            "conteudo": {
+              "texture": "magma",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hydro:conteudo') == 'mel'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cauldron_side",
+              "render_method": "alpha_test"
+            },
+            "dentro": {
+              "texture": "cauldron_inner",
+              "render_method": "alpha_test"
+            },
+            "topo": {
+              "texture": "cauldron_top",
+              "render_method": "alpha_test"
+            },
+            "fundo": {
+              "texture": "cauldron_bottom",
+              "render_method": "alpha_test"
+            },
+            "conteudo": {
+              "texture": "honey_top",
+              "render_method": "blend"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

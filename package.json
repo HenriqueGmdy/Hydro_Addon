@@ -2,8 +2,14 @@
   "name": "hydro-addon",
   "version": "0.1.0",
   "private": true,
-  "description": "Hydro Addon para Minecraft Bedrock. Este arquivo só serve para o VS Code entender a Script API (autocompletar e checagem de erros).",
+  "description": "Hydro Addon para Minecraft Bedrock. Serve para o VS Code entender a Script API e para rodar o gerador (npm run gerar).",
   "devDependencies": {
-    "@minecraft/server": "2.4.0"
+    "@minecraft/server": "2.4.0",
+    "typescript": "^5.6.0"
+  },
+  "type": "module",
+  "scripts": {
+    "gerar": "node tools/gerar.mjs",
+    "checar": "tsc -p jsconfig.json --noEmit"
   }
 }

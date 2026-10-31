@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hydro_armadura_brilhando": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.enchanted"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Texture.enchanted"
+      ]
+    }
+  }
+}

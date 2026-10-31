@@ -2,17 +2,17 @@
   "format_version": 2,
   "header": {
     "name": "Hydro Addon (RP)",
-    "description": "Protótipo do tier de cobre",
+    "description": "Overhaul vanilla: classes de armadura, progressão em tiers e defesa nova",
     "uuid": "f049f1a1-92d1-4fca-a60a-3d0943ff4e30",
     "version": [
       0,
-      1,
+      2,
       0
     ],
     "min_engine_version": [
       1,
       21,
-      100
+      90
     ]
   },
   "modules": [
@@ -21,7 +21,7 @@
       "uuid": "aaf73084-bd85-4af3-8f9f-ef660d371976",
       "version": [
         0,
-        1,
+        2,
         0
       ]
     }

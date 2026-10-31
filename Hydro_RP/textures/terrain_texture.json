@@ -1,0 +1,20 @@
+{
+  "resource_pack_name": "hydro",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "hydro_caldeirao_pocao": {
+      "textures": "textures/blocks/caldeirao/pocao"
+    },
+    "hydro_fornalha_infernal_frente": {
+      "textures": "textures/blocks/fornalha_infernal/frente"
+    },
+    "hydro_fornalha_infernal_lado": {
+      "textures": "textures/blocks/fornalha_infernal/lado"
+    },
+    "hydro_fornalha_infernal_topo": {
+      "textures": "textures/blocks/fornalha_infernal/topo"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hydro:fur_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "XAX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "A": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:rabbit_hide"
+      }
+    ],
+    "result": {
+      "item": "hydro:fur_chestplate",
+      "count": 1
+    }
+  }
+}
